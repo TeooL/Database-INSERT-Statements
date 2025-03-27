@@ -7,5 +7,8 @@ public class Main{
             System.out.println("INSERT INTO Departments (d_id, Department) VALUES (" + i + ",'" + departments[i-1] + "\');");
             i++;
         }
+        for (int s = 1; s < 5001; s++){
+            System.out.println("INSERT INTO People (p_id, First_Name, Last_Name) VALUES (" + s + ", 'FirstName" + s + "', 'LastName" + s +"');");
+        }
     }
 }
